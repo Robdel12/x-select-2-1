@@ -1,0 +1,13 @@
+.x-select {
+  line-height: 173px;
+  height: 120px;
+  font-size: 70px;
+  border: 7px solid #ddd;
+}
+
+.example-select-wrapper {
+  margin-bottom: 20px;
+}
+.hljs {
+  font-size: 25px;
+}

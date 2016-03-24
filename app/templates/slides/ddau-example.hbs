@@ -1,0 +1,15 @@
+<h1 class="title">Actions Example</h1>
+
+{{#x-select value=(mut ddauExample) onblur="selectBlurred"}}
+  {{#x-option value="First"}}First{{/x-option}}
+  {{#x-option selected=true value="Second"}}Second{{/x-option}}
+  {{#x-option value="Third"}}Thrid{{/x-option}}
+{{/x-select}}
+
+{{#if blurValue}}
+  <p>What's the ID? "#{{blurComponent}}"</p>
+  <p>Select value? "{{blurValue}}"</p>
+  <p>What kind of event? "{{blurEvent}}"</p>
+{{/if}}
+
+{{title "Data Down Actions Up demo"}}

@@ -1,0 +1,9 @@
+<h1 class="title">Fix for default values:</h1>
+{{#x-select value=(mut defaultValueExample)}}
+  {{#x-option value="First"}}First{{/x-option}}
+  {{#x-option selected=true value="Second"}}Second{{/x-option}}
+  {{#x-option value="Third"}}Thrid{{/x-option}}
+{{/x-select}}
+
+<p>Selected value: {{defaultValueExample}}</p>
+{{title "Fix for default values"}}

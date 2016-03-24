@@ -1,0 +1,14 @@
+<h1 class="title screen-reader">Actions Example Code</h1>
+
+{{#code-highlight}}
+  ```js
+  selectBlurred(componet, value, event) {
+    this.get('controller').setProperties({
+      blurComponent: componet.get('elementId'),
+      blurValue: value,
+      blurEvent: event.type
+    });
+  }
+  ```
+{{/code-highlight}}
+{{title "Data Down Actions Up example code"}}
